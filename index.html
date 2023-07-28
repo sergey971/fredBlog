@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <section>
+            <div class="desc">
+                <div class="desc__body">
+                    <div class="desc__row">
+                        <div class="desc__page">
+                            <div class="desc__page__row">
+                                <div class="box__body">
+                                    <div class="box__item">
+                                        <div class="box">
+                                            <div class="page__item__row">
+                                                <div class="page__body">
+                                                    <div class="page__item__title">Название статьи очень длинноев две строки</div>
+                                                    
+                                                <div class="page__item__text">Дескриптор к статье. Некий анонс главной мысли всей статьи, который также будет размещен на каталожной странице блога с выбором подходящей статьи для чтения</div>
+                                                
+                                                </div>
+                                                
+                                                <div class="page__item__desc">
+                                                    <div class="page__item__times">
+                                                        20.07.2023
+                                                        <p>Редакция от
+                                                            10.11.2023</p>
+                                                    </div>
+                                                    <!-- <div class="page__item__date">Редакция от
+                                                        10.11.2023</div> -->
+                                                    <div class="page__item__body">
+                                                        <div class="page__item__body__row">
+                                                            <div class="page__item__eye">1034</div>
+                                                            <div class="page__item__like">714</div>
+                                                            <div class="page__item__time">10 минут</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="box2">
+                                            <div class="page__item__tags__body">
+                                                <div class="page__item__tags__body__row">
+                                                    <div class="page__item__tags__body__link">
+                                                        <a class="Marketing" href="#">Marketing</a>
+                                                    </div>
+                                                    <div class="page__item__tags__body__link">
+                                                        <a class="SEO" href="#">SEO</a>
+                                                    </div>
+                                                    <div class="page__item__tags__body__link">
+                                                        <a class="Development" href="#">Development</a>
+                                                    </div>
+                                                    <div class="page__item__tags__body__link">
+                                                        <a class="SEO" href="#">SEO</a>
+                                                    </div>
+                                                    <div class="page__item__tags__body__link">
+                                                        <a class="SEO" href="#">SEO</a>
+                                                    </div>
+                                                    <div class="page__item__tags__body__link">
+                                                        <a class="Development" href="#">Development</a>
+                                                    </div>
+                                                    <div class="page__item__tags__body__link">
+                                                        <a class="Marketing" href="#">Marketing</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    
+                                        </div>
+                                    </div>
+                                    <div class="desc__author">
+                                        <div class="desc__author__row">
+                                            <span  class="desc__author__name">
+                                                Станислав Кунгуров
+                                            </span>
+                                            <p class="desc__author__special">CEO агенства «FRED»</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="desc__photo">
+                            <img class="desc__photo__img" src="./images/index/boss.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- <div id="element-to-move">Этот элемент будет двигаться</div> -->
+    <script>
+        function moveElement() {
+  var element = document.querySelector('.desc__author');
+  var screenWidth = window.innerWidth;
+
+  if (screenWidth <= 1180) { // Ширина экрана, при которой нужно перенести элемент
+    element.style.top = '117%'; // Переносим элемент вниз
+    element.style.left = '0%'; // Переносим элемент в другую сторону
+  } else {
+    element.style.top = '78%'; // Возвращаем элемент в исходное положение по вертикали
+    element.style.left = '65%'; // Возвращаем элемент в исходное положение по горизонтали
+  }
+  
+}
+
+// Вызываем функцию при загрузке страницы и при изменении размера окна
+window.addEventListener('load', moveElement);
+window.addEventListener('resize', moveElement);
+    </script>
+</body>
+
+</html>

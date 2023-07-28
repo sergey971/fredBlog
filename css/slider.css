@@ -1,0 +1,32 @@
+.slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.slider__top {
+  max-width: 696px;
+}
+.slider__top img {
+  height: 396px;
+  border-radius: 16px;
+}
+.slider__buttom {
+  margin-top: 8px;
+  max-width: 696px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+.slider__buttom img {
+  -webkit-transform: translateX(-40%);
+          transform: translateX(-40%);
+  width: 124px;
+  height: 100px;
+  border-radius: 8px;
+  margin-left: 8px;
+}
