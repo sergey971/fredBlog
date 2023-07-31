@@ -858,6 +858,7 @@
   font-weight: 400;
   line-height: 116%;
   position: relative;
+<<<<<<< HEAD
 }
 .quote__author__row {
   display: -webkit-box;
@@ -952,3 +953,6 @@
   font-weight: 500;
   line-height: 116%;
 }
+=======
+}  
+>>>>>>> f41f90ed7a89549c6ea4df1a9f2070e9c1743a4f
