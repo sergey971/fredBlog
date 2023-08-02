@@ -13,6 +13,8 @@ $(function() {
 const contenTimeCodeShow = document.querySelector("#content__time-code-show");
 const contenTimeCodeClose = document.querySelector(".content__time-code-close");
 const contentTimeCodeBoxBody = document.querySelector(".content__time-code-box-body");
+const btnTop = document.querySelector(".top");
+
 
 contenTimeCodeShow.addEventListener("click", function() {
 	openContent();
@@ -32,3 +34,23 @@ function closeContent(){
 	contenTimeCodeShow.classList.remove("none");
 }
 
+btnTop.addEventListener("click",goTop);
+window.addEventListener("scroll",trackScroll);
+function goTop(){
+	if(window.window.pageYOffset > 0){
+		window.scrollBy(0, -75);
+		setTimeout(goTop, 10);
+	}
+}
+function trackScroll(){
+	const offSet = window.pageYOffset;
+	const coords = document.documentElement.clientHeight;  // Вычесляем высоту окна браузера
+	if(offSet > coords){
+		btnTop.classList.add("top--show");
+	}
+	else{
+		
+		btnTop.classList.remove("top--show");
+	}
+
+}
