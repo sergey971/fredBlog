@@ -14,6 +14,7 @@ const contenTimeCodeShow = document.querySelector("#content__time-code-show");
 const contenTimeCodeClose = document.querySelector(".content__time-code-close");
 const contentTimeCodeBoxBody = document.querySelector(".content__time-code-box-body");
 const btnTop = document.querySelector(".top");
+const contentRight = document.querySelector(".boxRight__body")
 
 
 contenTimeCodeShow.addEventListener("click", function() {
@@ -54,3 +55,22 @@ function trackScroll(){
 	}
 
 }
+// function scrollRight() {
+// 	const yOffset = 450;
+  
+// 	function handleScroll() {
+// 	  const scrollOffset = window.pageYOffset;
+// 	  if (scrollOffset >= yOffset) {
+// 		contentRight.style.cssText = "position: fixed;  bottom: 0px;";
+// 	  } else {
+// 		contentRight.style.position = "static";
+// 	  }
+// 	}
+  
+// 	window.addEventListener("scroll", handleScroll);
+//   }
+  
+//   scrollRight();
+
+
+  
