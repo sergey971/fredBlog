@@ -4,6 +4,8 @@
     <title>Slick слайдер</title>
     <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="./css/slider.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
 </head>
@@ -34,8 +36,14 @@
             </div>
         </div>
     </div>
-</div>
 
+</div>
+<script>
+      $(document).ready(function(){
+    $(".owl-carousel").owlCarousel();
+    });
+</script>
+<script src="./js/owl.carousel.min.js"></script>
         <!-- Подключаем jQuery -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <!-- Подключаем слайдер Slick -->

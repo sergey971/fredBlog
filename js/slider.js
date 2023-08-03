@@ -17,5 +17,10 @@ $('.slider__top').slick({
     centerMode: true,
     focusOnSelect: true
   });
-
+// ====================
+  // $('.nextPage__row').slick({
+  //   infinite: true,
+  //   slidesToShow: 5,
+  //   slidesToScroll: 1,
+  // });
 

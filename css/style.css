@@ -24,10 +24,9 @@
 }
 
 .container__nextPage {
-  max-width: 1254px;
+  max-width: 1255px;
   padding: 0 15px;
   margin: 0 auto;
-  overflow: hidden;
 }
 
 .desc__body {
@@ -1740,13 +1739,26 @@
           column-gap: 32px;
 }
 .nextPage__title {
-  max-width: 593px;
   color: #333;
   font-family: "Montserrat";
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
   line-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.nextPage__slider__btn {
+  width: 90px;
+  height: 90px;
+  margin-left: auto;
 }
 .nextPage .colPage__row {
   width: 280px;

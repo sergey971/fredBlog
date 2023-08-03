@@ -9,7 +9,39 @@ $(function() {
 		fixedContentPos: false
 	});
 });
+// slider
+$(document).ready(function(){
+    const owl = $('.owl-carousel');
+    owl.owlCarousel({
+        loop:true,
+        nav:false,
+        margin:50,
+        responsive:{
+            1000:{
+                items:5
+            },
+            900:{
+                items:5
+            },
+            600:{
+                items:3
+            },
+            400:{
+                items:1
+            }
+        }
+    });
 
+    $('.slider__btn').click(function() {
+        owl.trigger('next.owl.carousel');
+    });
+});
+
+
+
+
+
+//Константы 
 const contenTimeCodeShow = document.querySelector("#content__time-code-show");
 const contenTimeCodeClose = document.querySelector(".content__time-code-close");
 const contentTimeCodeBoxBody = document.querySelector(".content__time-code-box-body");
@@ -73,4 +105,5 @@ function trackScroll(){
 //   scrollRight();
 
 
-  
+
+
