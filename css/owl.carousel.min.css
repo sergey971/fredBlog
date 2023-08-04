@@ -13,13 +13,20 @@
     width: 100%;
     z-index: 1
 }
+@media (min-width:1024px) {
+    .owl-carousel {
+        width: 135% !important;
+    }
+}
 
 .owl-carousel .owl-stage {
     position: relative;
     -ms-touch-action: pan-Y;
     touch-action: manipulation;
-    -moz-backface-visibility: hidden
+    -moz-backface-visibility: hidden;
+    margin-left: -144px;
 }
+
 
 .owl-carousel .owl-stage:after {
     content: ".";
@@ -33,7 +40,7 @@
 .owl-carousel .owl-stage-outer {
     position: relative;
     overflow: hidden;
-    -webkit-transform: translate3d(0, 0, 0)
+    -webkit-transform: translate3d(0, 0, 0);
 }
 
 .owl-carousel .owl-item, .owl-carousel .owl-wrapper {
@@ -114,7 +121,7 @@
 }
 
 .owl-carousel.owl-rtl .owl-item {
-    float: right
+    float: right;
 }
 
 .owl-carousel .animated {
@@ -206,7 +213,7 @@
     height: 100%;
     width: 100%
 }
-.owl-stage{
-    display: flex;
-    column-gap: 57px;
+
+.owl-item {
+    /* width:284px !important; */
 }

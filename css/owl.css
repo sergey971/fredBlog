@@ -1,0 +1,107 @@
+.container__owl {
+  max-width: 1255px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.colPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.colPage__img {
+  margin-bottom: 16px;
+}
+.colPage__img img {
+  height: 212px;
+  width: 100%;
+  border-radius: 16px;
+  background: #F6B34F;
+  padding: 15px 30px;
+}
+.colPage__item__date, .colPage__item__eyes, .colPage__item__like, .colPage__item__time {
+  color: #333;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133%;
+}
+.colPage__item__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 16px;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+  margin-bottom: 12px;
+}
+.colPage__item__eyes {
+  background: url("../images/index/blackYeas.svg");
+  background-repeat: no-repeat;
+  background-position: top 4px;
+  padding-left: 20px;
+}
+.colPage__item__like {
+  background: url("../images/index/blackLike.svg");
+  background-repeat: no-repeat;
+  background-position: top 4px;
+  padding-left: 20px;
+}
+.colPage__item__time {
+  background: url("../images/index/blackTime.svg");
+  background-repeat: no-repeat;
+  background-position: top 4px;
+  padding-left: 20px;
+}
+.colPage__subTitle {
+  width: 280px;
+  color: #333;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  margin-bottom: 12px;
+}
+.colPage__text {
+  max-width: 280px;
+  max-height: 48px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  color: #333;
+  text-overflow: ellipsis;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133%;
+  margin-bottom: 12px;
+}
+.colPage__metaTag__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.colPage__metaTag__col {
+  overflow: hidden;
+  color: #4F8CF6;
+  text-overflow: ellipsis;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}

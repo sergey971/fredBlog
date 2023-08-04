@@ -13,26 +13,32 @@ $(function() {
 $(document).ready(function(){
     const owl = $('.owl-carousel');
     owl.owlCarousel({
-        loop:true,
-        nav:false,
-        margin:50,
-        responsive:{
-            1000:{
-                items:5
-            },
-            900:{
-                items:5
-            },
-            600:{
-                items:3
-            },
-            400:{
-                items:1
-            }
-        }
-    });
-
-    $('.slider__btn').click(function() {
+                loop: true,
+                // margin: 32,
+                nav: false,
+                dots: false,
+                responsive: {
+                    0:{
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    900: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 4
+                    },
+                    1024: {
+                        items: 4
+                    },
+                    1140: {
+                        items: 5
+                    }
+                }
+            })
+            $('.slider__btn').click(function() {
         owl.trigger('next.owl.carousel');
     });
 });
@@ -47,6 +53,7 @@ const contenTimeCodeClose = document.querySelector(".content__time-code-close");
 const contentTimeCodeBoxBody = document.querySelector(".content__time-code-box-body");
 const btnTop = document.querySelector(".top");
 const contentRight = document.querySelector(".boxRight__body")
+// const colorsBg = document.querySelectorAll('.colors');
 
 
 contenTimeCodeShow.addEventListener("click", function() {
@@ -87,6 +94,7 @@ function trackScroll(){
 	}
 
 }
+// ========================================= СКРОЛ
 // function scrollRight() {
 // 	const yOffset = 450;
   
@@ -103,7 +111,19 @@ function trackScroll(){
 //   }
   
 //   scrollRight();
+// ===============================================
 
+const colorsBg = document.querySelectorAll('.colors');
+const colors = ["#F6B34F", "#F64F6D", "#3CBB54"];
 
+function getColor() {
+    colorsBg.forEach((element, index) => {
+        let currentColorIndex = index % colors.length;
+        let currentColor = colors[currentColorIndex];
+        element.style.backgroundColor = currentColor;
+    });
+}
+
+getColor();
 
 
