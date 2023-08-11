@@ -13,8 +13,8 @@ $(function() {
 $(document).ready(function(){
     const owl = $('.owl-carousel');
     owl.owlCarousel({
+        rewindNav:false,
                 loop: true,
-                // margin: 32,
                 nav: false,
                 dots: false,
                 responsive: {
@@ -22,7 +22,8 @@ $(document).ready(function(){
                         items: 1
                     },
                     600: {
-                        items: 2
+                        items: 3,
+
                     },
                     900: {
                         items: 2
