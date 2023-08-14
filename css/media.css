@@ -17,6 +17,43 @@
   }
 }
 @media (max-width: 768px) {
+  .desc__author {
+    height: 96px;
+    padding: 0px;
+  }
+  .desc__author__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-column-gap: 33px;
+       -moz-column-gap: 33px;
+            column-gap: 33px;
+  }
+  .desc__author__photo img {
+    display: block;
+    max-width: none;
+    width: 94px;
+    height: 94px;
+  }
+  .desc__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 15px;
+  }
+  .desc .desc__author__name {
+    margin-bottom: 0px;
+    font-size: 16px;
+    line-height: 100%;
+  }
+  .desc__author__special {
+    text-align: left;
+  }
   .content__right__body {
     margin-left: -171px;
   }
@@ -38,10 +75,10 @@
     left: 454px !important;
   }
   .desc .page__item__title {
-    font-size: 56px;
+    font-size: 46px;
   }
   .content__right .telegram {
-    margin-bottom: 97px !important;
+    margin-bottom: 61px !important;
   }
   .arrow__email {
     display: none;
@@ -64,6 +101,9 @@
     max-width: 524px;
     margin-left: 15px;
   }
+  .content__third__sum-title {
+    max-width: 544px;
+  }
   .content__second-sub-title,
   .content__text,
   .content__image__first,
@@ -82,7 +122,8 @@
     line-height: 120%;
     font-size: 20px;
   }
-  .list ol li, .markers li {
+  .list ol li,
+  .markers li {
     max-width: 504px;
   }
   .quote__text {
@@ -112,10 +153,13 @@
     -webkit-transform: rotate(15deg);
             transform: rotate(15deg);
   }
-  .content__image__first, .content__image__second {
+  .content__image__first,
+  .content__image__second {
     max-width: 544px;
   }
-  .content__text__second p, .content__text__third p, .content__text__four p {
+  .content__text__second p,
+  .content__text__third p,
+  .content__text__four p {
     color: #333;
     font-family: Roboto;
     font-size: 16px;
@@ -124,13 +168,20 @@
     line-height: 150%;
     max-width: 544px;
   }
+  .slider__row {
+    width: 78%;
+  }
+  .second__desc {
+    margin-right: 150px;
+  }
   .outputArticles h2 {
     font-size: 28px;
   }
   .outputArticles__title__second h2 {
     font-size: 28px !important;
   }
-  .outputArticles .plus__desc, .outputArticles .minus__desc {
+  .outputArticles .plus__desc,
+  .outputArticles .minus__desc {
     max-width: 224px;
   }
   .outputArticles__second__body {
