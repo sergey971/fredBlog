@@ -1,6 +1,19 @@
 @media (max-width: 1024px) {
   .content__right .telegram {
-    margin-bottom: 32px !important;
+    margin-bottom: 32px;
+  }
+  .content__right .boxRight__contain {
+    margin-bottom: 16px;
+  }
+  .desc__author {
+    max-width: 155px;
+    padding: 11px;
+  }
+  .desc__author__name {
+    font-size: 18px;
+  }
+  .desc__author__special {
+    text-align: left;
   }
   .desc .desc__photo img {
     height: 266px !important;
@@ -16,7 +29,7 @@
     display: flex !important;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 834px) {
   .desc__author {
     height: 96px;
     padding: 0px;
