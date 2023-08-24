@@ -447,10 +447,23 @@
     margin-bottom: 16px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 320px) {
   .desc__author {
     top: 123px !important;
     width: 92%;
+  }
+  .like__social {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    row-gap: 16px;
+    width: 100%;
+  }
+  .like__page {
+    margin-right: 0px;
   }
   .form__body {
     padding: 24px 16px;
