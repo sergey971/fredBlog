@@ -330,6 +330,10 @@
        -moz-column-gap: 100px;
             column-gap: 100px;
   }
+  .content__leadtext {
+    padding: 16px;
+    margin-top: 16px;
+  }
   .content__right {
     margin-top: 95px;
     margin-bottom: 650px;
