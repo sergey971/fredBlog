@@ -447,3 +447,19 @@
     margin-bottom: 16px;
   }
 }
+@media (max-width: 375px) {
+  .desc__author {
+    top: 123px !important;
+    width: 92%;
+  }
+  .form__body {
+    padding: 24px 16px;
+  }
+  .form__submit__btn {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 16px;
+  }
+}

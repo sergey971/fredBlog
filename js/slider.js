@@ -31,7 +31,14 @@ $('.slider__buttom').slick({
         slidesToShow: 2, // Здесь установите количество карточек, которое вы хотите видеть при 425px
         slidesToScroll: 1
       }
-    }
+    },
+    {
+      breakpoint: 320,  // Добавляем breakpoint для ширины 425 пикселей
+      settings: {
+        slidesToShow: 1, // Здесь установите количество карточек, которое вы хотите видеть при 425px
+        slidesToScroll: 1
+      }
+    },
   ]
 });
 
