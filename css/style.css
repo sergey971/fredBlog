@@ -451,7 +451,7 @@
   display: -ms-flexbox;
   display: flex;
 }
-.content__right .boxRight__item h3 {
+.content__right .boxRight__item a {
   max-width: 306px;
   width: 100%;
   color: #4F8CF6;

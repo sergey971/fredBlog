@@ -102,7 +102,7 @@ function trackScroll(){
 // 	function handleScroll() {
 // 	  const scrollOffset = window.pageYOffset;
 // 	  if (scrollOffset >= yOffset) {
-// 		contentRight.style.cssText = "position: fixed;  bottom: 0px;";
+// 		contentRight.style.cssText = "position: fixed;  bottom: 0px; height: 100%";
 // 	  } else {
 // 		contentRight.style.position = "static";
 // 	  }

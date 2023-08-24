@@ -1,10 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:ital,wght@0,400;0,500;1,100&display=swap");
+
 /* Reset and base styles  */
 * {
 	padding: 0px;
 	margin: 0px;
 	border: none;
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 *,
@@ -15,12 +20,12 @@
 
 /* Links */
 
-a, a:link, a:visited  {
-    text-decoration: none;
+a, a:link, a:visited {
+	text-decoration: none;
 }
 
-a:hover  {
-    text-decoration: none;
+a:hover {
+	text-decoration: none;
 }
 
 /* Common */
@@ -30,7 +35,7 @@ aside, nav, footer, header, section, main {
 }
 
 h1, h2, h3, h4, h5, h6, p {
-    font-size: inherit;
+	font-size: inherit;
 	font-weight: inherit;
 }
 
@@ -48,16 +53,16 @@ img, svg {
 }
 
 address {
-  font-style: normal;
+	font-style: normal;
 }
 
 /* Form */
 
 input, textarea, button, select {
 	font-family: inherit;
-    font-size: inherit;
-    color: inherit;
-    background-color: transparent;
+	font-size: inherit;
+	color: inherit;
+	background-color: transparent;
 }
 
 input::-ms-clear {
@@ -65,16 +70,16 @@ input::-ms-clear {
 }
 
 button, input[type="submit"] {
-    display: inline-block;
-    box-shadow: none;
-    background-color: transparent;
-    background: none;
-    cursor: pointer;
+	display: inline-block;
+	box-shadow: none;
+	background-color: transparent;
+	background: none;
+	cursor: pointer;
 }
 
 input:focus, input:active,
 button:focus, button:active {
-    outline: none;
+	outline: none;
 }
 
 button::-moz-focus-inner {

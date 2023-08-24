@@ -5,6 +5,9 @@
   .content__right .boxRight__contain {
     margin-bottom: 16px;
   }
+  .content .video .top {
+    right: 0px;
+  }
   .desc__author {
     max-width: -webkit-max-content;
     max-width: -moz-max-content;
@@ -310,6 +313,9 @@
     width: 100%;
     top: 80px !important;
     left: 16px !important;
+  }
+  .video .top {
+    display: none;
   }
   .box2 {
     height: auto !important;
