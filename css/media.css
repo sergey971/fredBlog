@@ -337,6 +337,9 @@
     font-size: 14px;
     line-height: 142%;
   }
+  .second__desc {
+    margin-right: 0px;
+  }
   .box {
     border-bottom-right-radius: 0px !important;
   }
@@ -447,10 +450,25 @@
     margin-bottom: 16px;
   }
 }
+@media (max-width: 375px) {
+  .desc__author {
+    width: 92%;
+    top: 121px !important;
+    left: 0px;
+  }
+}
+.form__submit__btn {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 16px;
+}
+
 @media (max-width: 320px) {
   .desc__author {
     top: 123px !important;
-    width: 92%;
+    width: 91%;
   }
   .like__social {
     -webkit-box-orient: vertical;
