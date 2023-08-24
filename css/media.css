@@ -456,6 +456,14 @@
     top: 121px !important;
     left: 0px;
   }
+  .content__right .telegram__body {
+    width: 110%;
+    margin-left: -15px;
+  }
+  .content__right .email__body {
+    width: 110%;
+    margin-left: -15px;
+  }
 }
 .form__submit__btn {
   -webkit-box-orient: vertical;
