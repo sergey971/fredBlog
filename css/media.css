@@ -6,7 +6,9 @@
     margin-bottom: 16px;
   }
   .desc__author {
-    max-width: 155px;
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
     padding: 11px;
   }
   .desc__author__name {
