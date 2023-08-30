@@ -342,7 +342,7 @@
   }
   .content__right {
     margin-top: 95px;
-    margin-bottom: 650px;
+    margin-bottom: 50px;
     max-width: 395px;
   }
   .content__right .telegram,
@@ -490,15 +490,14 @@
     width: 110%;
     margin-left: -15px;
   }
+  .form__submit__btn {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 16px;
+  }
 }
-.form__submit__btn {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  row-gap: 16px;
-}
-
 @media (max-width: 320px) {
   .desc__author {
     top: 123px !important;
@@ -526,5 +525,11 @@
         -ms-flex-direction: column;
             flex-direction: column;
     row-gap: 16px;
+  }
+  .video__item__desc__box__title {
+    font-size: 12px;
+  }
+  .video__item__desc__box__title h5 {
+    margin-bottom: 6px;
   }
 }

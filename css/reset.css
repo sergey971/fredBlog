@@ -8,10 +8,6 @@
 	border: none;
 }
 
-html {
-	scroll-behavior: smooth;
-}
-
 *,
 *::before,
 *::after {
