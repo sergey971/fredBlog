@@ -102,7 +102,7 @@ function scrollRight() {
         const scrollOffset = window.pageYOffset;
         const widthWin = window.innerWidth;
         if (scrollOffset >= yOffset && widthWin >= width) {
-            contentRight.style.cssText = `position: fixed; width:100%; bottom: 0px; height: 100%`;
+            contentRight.style.cssText = `position: fixed; width:100%; bottom: 0px; height: 100%; z-index:-1`;
         } else {
             contentRight.style.position = "static";
         }
